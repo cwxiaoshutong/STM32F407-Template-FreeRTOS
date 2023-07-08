@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Library/CMSIS/CORE",
+                "${workspaceFolder}/Library/CMSIS/DEVICE",
+                "${workspaceFolder}/Library/STM32F4x_StdPeriph_Driver/inc",
+                "${workspaceFolder}/Library/FreeRTOS/include",
+                "${workspaceFolder}/Library/FreeRTOS/portable/GCC/ARM_CM4F",
+                "${workspaceFolder}/src/include"
+            ],
+            "defines": ["USE_HAL_DRIVER", "STM32F103xE"],
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}

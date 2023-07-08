@@ -1,0 +1,1 @@
+此文件夹中的文件用于在GCC下进行一些系统调用的重定向, arm-none-eabi-gcc默认使用newlib nano作为其C库, printf和malloc功能需要重写

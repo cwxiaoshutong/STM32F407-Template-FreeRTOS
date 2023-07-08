@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "usart.h": "c",
+        "stdio.h": "c",
+        "math.h": "c",
+        "stm32f4xx_rcc.h": "c",
+        "stdarg.h": "c",
+        "freertos.h": "c"
+    }
+}
